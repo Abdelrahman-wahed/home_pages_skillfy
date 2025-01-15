@@ -77,7 +77,7 @@ const Home = () => {
             </div>
             <div className="sm:text-center   ">
               <img
-                src="../public/star.svg"
+                src="./star.svg"
                 alt="star"
                 className="inline-block ml-5 sm:m-0"
               />
