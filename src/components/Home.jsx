@@ -14,7 +14,7 @@ const Home = () => {
     <div>
       {/* start header  */}
       <div className="relative flex justify-between items-center border-b-[1px] border-mainGray px-9 sm:px-4">
-        <img src="../public/Logo.svg" alt="logo" className="sm:w-24" />
+        <img src="./Logo.svg" alt="logo" className="sm:w-24" />
         <ul className=" sm:hidden   space-x-14 flex items-center text-base font-semibold text-[#808080] ">
           <li className=" active py-8 cursor-pointer   ">Home</li>
           <li className=" py-8 cursor-pointer hover:text-mainColor  ">
@@ -45,17 +45,17 @@ const Home = () => {
           </Btn>
           <div className="gap-2 sm:gap-1 flex justify-between sm:items-center itmes-center">
             <img
-              src="../public/Search.svg"
+              src="./Search.svg"
               alt="search"
               className="cursor-pointer  block sm:p-1 sm:w-5 sm:h-5 p-3 w-12 h-12 rounded-full border-x border-[#EAEAEA]"
             />
             <img
-              src="../public/Home.svg"
+              src="./Home.svg"
               alt="search"
               className="cursor-pointer block sm:p-1 sm:w-5 sm:h-5 p-3 w-12 h-12 rounded-full border-x border-[#EAEAEA]"
             />
             <img
-              src="../public/Notification.svg"
+              src="./Notification.svg"
               alt="search"
               className="cursor-pointer  block sm:p-1 sm:w-5 sm:h-5 p-3  w-12 h-12 rounded-full border-x border-[#EAEAEA]"
             />
@@ -69,7 +69,7 @@ const Home = () => {
         <div className="flex-[1] mx-9 sm:mx-4">
           <div className="mb-16 flex flex-col justify-between items-start  px-3 py-6 border-[1px] border-mainGray rounded-[28px]">
             <div className="flex items-center justify-start sm:flex-col sm:ml-0  gap-2 ml-5 mb-11 ">
-              <img src="../public/photoProfile.svg" alt="" />
+              <img src="./photoProfile.svg" alt="" />
               <div>
                 <h1 className="mb-2">Hello, Ramy !</h1>
                 <span className=" block relative w-[100px] h-[3px] text-xs bg-[#D9D9D9] text-[#D9D9D9] before:content-['']  before:absolute before:top-0 before:left-0 before:bg-mainColor before:w-[40%] before:h-full after:-right-7 after:top-1/2 after:-translate-y-1/2 after:absolute after:content-['40%']"></span>
@@ -101,7 +101,7 @@ const Home = () => {
             </div>
             <div className="w-full mt-11 sm:text-center">
               <img
-                src="../public/teacher.svg"
+                src="./teacher.svg"
                 alt="star"
                 className="inline-block ml-5 sm:ml-0"
               />
@@ -120,7 +120,7 @@ const Home = () => {
           </div>
           {/* start card pay  */}
           <div className=" text-center  px-8 py-6 sm:px-1  border-[1px] border-mainGray rounded-[28px]">
-            <img src="../public/Pay.svg " alt="pay" className="mx-auto" />
+            <img src="./Pay.svg " alt="pay" className="mx-auto" />
             <h1 className="font-semibold text-xl sm:text-sm text-[#172239] mt-2 mb-3 ">
               Upgrade Plan
             </h1>
