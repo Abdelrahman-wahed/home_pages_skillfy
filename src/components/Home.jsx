@@ -145,7 +145,7 @@ const Home = () => {
             <div className="grid  gap-[25px] sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3  ">
               {/* start card  */}
               <Card
-                img="Card1"
+                img="card1"
                 type="Computer Science"
                 time="3 Days , 6 h"
                 nameCourse="Flutter"
@@ -183,7 +183,7 @@ const Home = () => {
             <div className="grid  gap-[25px] sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3  ">
               {/* start card  */}
               <Card
-                img="Card4"
+                img="card4"
                 type="Computer Science"
                 time="3 Days , 6 h"
                 nameCourse="Figma"
