@@ -10,7 +10,7 @@ const ratingChanged = (newRating) => {
   return (
     <div className=" relative py-3 px-2 rounded-xl shadow-cardShadow max-w-[270px]">
       <img
-        src={`../src/assets/${img}.png `}
+        src={`../public/${img}.png `}
         alt={`${img}`}
         className="w-full "
       />
