@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn {
+    @apply text-white px-4 py-4 rounded-lg bg-mainColor text-xl w-full  cursor-pointer font-medium border-[#EAEAEA] border-[1px] duration-200  flex justify-center gap-5   items-center;
+  }
+  .miniTap{
+    @apply bg-[#E4E4E7] rounded-lg w-14 h-2 ;
+  }
+  .active{
+    @apply text-mainColor  border-mainColor  border-b-[1px]
+  }
+}
+.selectTap{
+  @apply bg-mainColor
+}
+
